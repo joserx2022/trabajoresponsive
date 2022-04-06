@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/styles.css">
+
+  <title>REGISTRO USUARIOS.HTML</title>
+</head>
+
+<body background="img/vaquita.com2.jpg">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">MI VAQUITA</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">LINK</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              ATENCION AL CLIENTE
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">NUMERO DEL VENDEDOR</a></li>
+              <li><a class="dropdown-item" href="#">ACESORIA DEL PRODUCTO</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">MAS INFORMACION</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">🔍︎</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Busqueda" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="text-center">
+    REGISTRAR USUARIOS
+  </div>
+
+  <div class="">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-2">
+          <label for="exampleFormControlInput1" class="form-label">NOMBRE DE LA FINCA</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <label for="exampleFormControlInput1" class="form-label"> NOMBRE DEL PROPIETARO</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Pepito Perez">
+        </div>
+        <div class="col-12 col-md-6 col-lg-2">
+          <label for="exampleFormControlInput1" class="form-label">TELEFONO</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="+57">
+        </div>
+
+        <div class="col-12 col-md-6 col-lg-2">
+          <label for="exampleFormControlInput1" class="form-label">DIRECCION</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+        </div>
+
+        <div class="col-12 col-md-3 col-lg-2">
+          <label for="exampleFormControlInput1" class="form-label">DOCUMENTO</label>
+          <SElect>
+            <OPtion id="ti">TARJETA DE IDENTIDAD</OPtion>
+            <OPtion id="cedula">CEDULA</OPtion>
+
+          </SElect>
+
+          </SElect>
+          <input id="ddddd" type="text" placeholder="escribe tu documento">
+          <button id="cl" type="submit">GUARDAR</button>
+
+        </div>
+
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Misión
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Somos una empresa que produce y comercializa leche de almendras a tiendas
+                  especializadas, gimnasios y restaurante en la zona norte de la ciudad de Bogotá. Junto con
+                  nuestros empleados responsables, creativos y honestos, ofreciendo el mejor servicio con la ayuda
+                  12
+                  de los proveedores adecuados. Queremos sobresalir entre las bebidas alternativas a la leche de
+                  vaca como una empresa con pasión, actitud y determinación.
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Objetivo general
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Realizar el plan de negocio y formalizar una empresa encargada de la producción y
+                  comercialización de leche de almendras con el objetivo de suplir la demanda de dicho producto
+                  en un segmento de mercado ubicado en Popayan, buscando así cubrir la necesidad de una
+                  alternativa a la leche de vaca por un producto sin lactosa y menor cantidad de calorías,
+                  principalmente dirigido a un mercado determinado.
+                  Objetivos Específicos
+                  • Caracterizar un mercado objetivo para el consumo de la leche de almendras.
+                  • Establecer la propuesta de valor para el negocio.
+                  • Formular los planes operativos, tácticos y estratégicos para el plan de negocios.
+                  Demostrar la viabilidad financiera y técnica del proyecto.
+
+                  
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Visión
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>Darnos a conocer y desarrollar la empresa MI VAQUITA dentro de los próximos dos
+                  años hasta llegar a ser una empresa con presencia en todos los canales de distribución esperados
+                  al igual que en la mente de los consumidores.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+          crossorigin="anonymous"></script>
+
+        <!-- Option 2: Separate Popper and Bootstrap JS -->
+        <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
